@@ -1,0 +1,29 @@
+	
+.a{
+   text-align:center;
+	animation: test 4s infinite;
+	 width:150px;
+	 height:250px;
+}
+
+@keyframes test{
+	
+   from{
+		 
+		 background-image:url(clip.jpg);
+		 width:250px;
+		 
+	}
+	to{
+		  transform:translate(50px, 50px);
+		  background-color:lightgreen;
+		  width:250px;
+		   height:250px;
+	}
+}
+
+
+
+
+
+
